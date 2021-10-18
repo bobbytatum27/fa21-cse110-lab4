@@ -54,16 +54,15 @@ occurs
 13H. outputs `NaN` - '3' is converted to an int with value 3 and undefined is converted to a number with value NaN.
 Then, numeric subtraction occurs, but subtracting NaN results in NaN.
 
-14A. outputs `true` - '2' is converted to a number and then the greater than comparison is made, which outputs true
+14. 
+  A. outputs `true` - '2' is converted to a number and then the greater than comparison is made, which outputs true
 since 2 > 1.
-14B. outputs `false` - string vs string comparison here is done by lexicographical ordering. Since '1' comes before '2'
+  B. outputs `false` - string vs string comparison here is done by lexicographical ordering. Since '1' comes before '2'
 in lexicographic ordering, the second argument is less than the first.
-14C. outputs `true` - string '2' is converted to numeric 2 and then the equality becomes 2 == 2, which is true.
-14D. outputs `false` - no type conversion is performed, so since the types are mismatched, this outputs false.
-14E. outputs `false` - true is converted to a number with value 1 and then the equality check is performed as 1 == 2
-which is false.
-14F. outputs `true` - Boolean(2) converts 2 to a boolean, with value true. Then the comparison becomes true === true,
-which is true.
+  C. outputs `true` - string '2' is converted to numeric 2 and then the equality becomes 2 == 2, which is true.
+  D. outputs `false` - no type conversion is performed, so since the types are mismatched, this outputs false.
+  E. outputs `false` - true is converted to a number with value 1 and then the equality check is performed as 1 == 2 which is false.
+  F. outputs `true` - Boolean(2) converts 2 to a boolean, with value true. Then the comparison becomes true === true, which is true.
 
 15. `==` allows for type conversion (i.e. `'2' == 2` is true) whereas `===` does not permit type conversion, so each
 operand must be equal in both type and value.
