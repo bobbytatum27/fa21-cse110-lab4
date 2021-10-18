@@ -42,37 +42,37 @@ in prices.
 12D. `student['Favorite Teacher'].name`
 12E. `student.courseLoad[0]`
 
-13. A. outputs `'32'` - `2` is converted to a string and then both strings are concatenated.
+13A. outputs `'32'` - `2` is converted to a string and then both strings are concatenated.
 
-13. B. outputs `1` - `3` is converted to a number type and then numeric subtraction occurs.
+13B. outputs `1` - `3` is converted to a number type and then numeric subtraction occurs.
 
-13. C. outputs `3` - null is converted to an int and its value as an int is 0.
+13C. outputs `3` - null is converted to an int and its value as an int is 0.
 
-13. D. outputs `'3null'` - null is converted to a string with value 'null' and then concatenation occurs.
+13D. outputs `'3null'` - null is converted to a string with value 'null' and then concatenation occurs.
 
-13. E. outputs `4` - true is converted to a number with value 1 and then numeric addition occurs.
+13E. outputs `4` - true is converted to a number with value 1 and then numeric addition occurs.
 
-13. F. outputs `0` - false is converted to a number with value 0 and null is converted to a number with value 0 and then
+13F. outputs `0` - false is converted to a number with value 0 and null is converted to a number with value 0 and then
 numeric addition occurs.
 
-13. G. outputs `'3undefined'` - undefined is converted a string with value 'undefined' and then string concatenation
+13G. outputs `'3undefined'` - undefined is converted a string with value 'undefined' and then string concatenation
 occurs
 
-13. H. outputs `NaN` - '3' is converted to an int with value 3 and undefined is converted to a number with value NaN.
+13H. outputs `NaN` - '3' is converted to an int with value 3 and undefined is converted to a number with value NaN.
 Then, numeric subtraction occurs, but subtracting NaN results in NaN.
 
-14. A. outputs `true` - '2' is converted to a number and then the greater than comparison is made, which outputs true
+14A. outputs `true` - '2' is converted to a number and then the greater than comparison is made, which outputs true
 since 2 > 1.
 
-14. B. outputs `false` - string vs string comparison here is done by lexicographical ordering. Since '1' comes before '2' in lexicographic ordering, the second argument is less than the first.
+14B. outputs `false` - string vs string comparison here is done by lexicographical ordering. Since '1' comes before '2' in lexicographic ordering, the second argument is less than the first.
 
-14. C. outputs `true` - string '2' is converted to numeric 2 and then the equality becomes 2 == 2, which is true.
+14C. outputs `true` - string '2' is converted to numeric 2 and then the equality becomes 2 == 2, which is true.
   
-14. D. outputs `false` - no type conversion is performed, so since the types are mismatched, this outputs false.
+14D. outputs `false` - no type conversion is performed, so since the types are mismatched, this outputs false.
   
-14. E. outputs `false` - true is converted to a number with value 1 and then the equality check is performed as 1 == 2 which is false.
+14E. outputs `false` - true is converted to a number with value 1 and then the equality check is performed as 1 == 2 which is false.
   
-14. F. outputs `true` - Boolean(2) converts 2 to a boolean, with value true. Then the comparison becomes true === true, which is true.
+14F. outputs `true` - Boolean(2) converts 2 to a boolean, with value true. Then the comparison becomes true === true, which is true.
 
 15. `==` allows for type conversion (i.e. `'2' == 2` is true) whereas `===` does not permit type conversion, so each
 operand must be equal in both type and value.
