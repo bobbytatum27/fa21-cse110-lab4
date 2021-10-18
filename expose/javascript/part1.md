@@ -10,6 +10,5 @@
 5. error - Since the const keyword was used on line 5, there is an error on line 7 when the script attempts to assign a
 new value to the result variable.
 
-6. 
-
-
+6. error - Since the const keyword was used on line 5, there is an error on line 7 when the script attempts to assign a
+new value to the result variable.
